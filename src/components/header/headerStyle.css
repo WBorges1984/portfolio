@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(43, 74, 99);
+    color: azure;
+    height: 70px;
+      font-family: 'Montserrat';
+  }
+  
+  nav{
+    display: flex;
+    
+  }
+  
+  nav > a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+   a:hover{
+    color: rgb(238, 214, 0);
+    transition: 0.7s;
+   }

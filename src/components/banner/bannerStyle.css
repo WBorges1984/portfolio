@@ -1,0 +1,60 @@
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-top: 20px;
+    gap: 20PX;
+  }
+  
+  .banner .dados{
+    align-items: center;
+    margin-top: 50px;
+
+  }
+  
+  .banner img{
+    width: 450px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    rotate: 3deg;
+    margin-right: 50px;
+  }
+  
+  .dadosAjuste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20PX;
+  }
+  .dadosAjuste h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  
+  .dadosAjuste h1{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(43, 74, 99);
+    margin-top: 10px;
+  }
+  
+  .dadosAjuste h3{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(86, 104, 119);
+    margin-top: 10px;
+  }
+  
+  .dadosAjuste .btnDados{
+    margin-top: 10px;
+  }
+
+  .btnDados{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }

@@ -1,0 +1,28 @@
+.btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 25%;
+    background-color: #B0BEC5;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(43, 74, 99);
+    color: aliceblue;
+    transition: 1s;
+    
+}
+
+.botoesBanner{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
