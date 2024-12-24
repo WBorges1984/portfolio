@@ -16,7 +16,7 @@ export default function Banner(){
           </div>
         </div>
         <div className='foto'>
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGoDEEJmlSeMQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728771226671?e=1740009600&v=beta&t=HQAvUmUghP03BFFnt3CPsZN2iebD6u_e9Uh1NDWUKw0" alt="" srcset="" />
+          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGoDEEJmlSeMQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728771226671?e=1740009600&v=beta&t=HQAvUmUghP03BFFnt3CPsZN2iebD6u_e9Uh1NDWUKw0" />
         </div>
       </div>
    ) 
