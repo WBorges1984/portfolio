@@ -2,6 +2,7 @@
 .banner{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-right: 50px;
     padding-top: 20px;
     gap: 20PX;
@@ -19,6 +20,8 @@
     border-radius: 10px;
     rotate: 3deg;
     margin-right: 50px;
+    align-items: center;
+    justify-content: center;
   }
   
   .dadosAjuste{
