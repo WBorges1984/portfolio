@@ -1,11 +1,18 @@
 
 .banner{
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-right: 50px;
     padding-top: 20px;
     gap: 20PX;
+    animation: mymove 2s;
+  }
+
+  @keyframes mymove {
+    0%   {left: -100px;opacity: 0;}
+    100% {left: 0px; opacity: 1;}
   }
   
   .banner .dados{
