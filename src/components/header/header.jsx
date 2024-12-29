@@ -9,9 +9,9 @@ export default function Header(){
          <nav>
            <button onClick={()=>setMenu('home')}>Início</button>
            <button onClick={()=>setMenu('sobre')}>Sobre mim</button>
-           <button>Tecnologias</button>
-           <button>Projetos</button>
-           <button>Contato</button>
+           <button onClick={()=>setMenu('tecno')}>Tecnologias</button>
+           <button onClick={()=>setMenu('projetos')}>Projetos</button>
+           <button onClick={()=>setMenu('contato')}>Contato</button>
          </nav>
        </header>
     )

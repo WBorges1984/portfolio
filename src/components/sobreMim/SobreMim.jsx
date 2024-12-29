@@ -1,6 +1,7 @@
 import React from 'react'
 import'./sobreMim.style.css'
 import img from '../../assets/img/sobremim.png'
+import BtnSalvarCurriculo from '../btnSalvarCurriculo/BtnCurriculo'
 
 export default function Sobremim() {
   return (
@@ -25,7 +26,7 @@ export default function Sobremim() {
         Material UI e MySQL, focando no desenvolvimento fullstack para criar 
         soluções tecnológicas de alto impacto.
         </h3>
-        
+        <BtnSalvarCurriculo />
       </article>
     </section>
   )

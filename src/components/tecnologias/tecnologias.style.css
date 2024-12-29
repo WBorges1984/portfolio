@@ -1,0 +1,56 @@
+#tecnologia{
+    position: relative;
+    animation: moveTec 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 20px;
+}
+
+#tecnologia h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(43, 74, 99);
+}
+
+#tecnologia{
+    font-weight: 500;
+}
+
+.linguagens{
+    padding: 20px 150px 20px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    justify-content: center;
+    gap: 35px;
+}
+
+.linguagens article{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    color: rgb(73, 108, 146) ;
+    text-align: center;
+    padding: 5px;
+    transition: 1s;
+}
+.linguagens article:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 1s;
+}
+
+article img{
+    width: 70px;
+}
+
+@keyframes moveTec {
+    0%   {right: -100px;opacity: 0;}
+    100% {right: 0px; opacity: 1;}
+  }
