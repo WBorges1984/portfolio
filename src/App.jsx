@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header/header";
 import Banner from "./components/banner/banner";
-import Sobremim from "./components/sobreMim/Sobremim";
+import Sobremim from "./components/sobreMim/SobreMim";
 import {useMenu } from "./components/context/menuContext";
 import Tecnologias from "./components/tecnologias/Tecnologias";
 import Projetos from "./components/projetos/Projetos"
