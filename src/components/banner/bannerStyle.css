@@ -7,7 +7,7 @@
     padding-right: 50px;
     padding-top: 20px;
     gap: 20PX;
-    animation: mymove 2s;
+    animation: mymove 1s;
   }
 
   @keyframes mymove {

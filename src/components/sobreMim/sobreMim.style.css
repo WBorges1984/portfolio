@@ -5,7 +5,7 @@
     justify-content: space-evenly;
     width: 100wh;
     margin-top: 45px;
-    animation: mymoveSobre 2s;
+    animation: mymoveSobre 1s;
 }
 
 @keyframes mymoveSobre {

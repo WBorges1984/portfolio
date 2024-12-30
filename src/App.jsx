@@ -6,6 +6,7 @@ import {useMenu } from "./components/context/menuContext";
 import Tecnologias from "./components/tecnologias/Tecnologias";
 import Projetos from "./components/projetos/Projetos"
 import Contato from "./components/contato/Contato"
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         {menu == 'tecno' ? <Tecnologias />: null}
         {menu == 'projetos' ? <Projetos />: null}
         {menu == 'contato' ? <Contato />: null}
-      
+        <Footer />
     </>
   );
 }

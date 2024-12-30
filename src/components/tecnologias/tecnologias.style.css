@@ -1,6 +1,6 @@
 #tecnologia{
     position: relative;
-    animation: moveTec 2s;
+    animation: moveTec 1s;
     display: flex;
     flex-direction: column;
     align-items: center;
