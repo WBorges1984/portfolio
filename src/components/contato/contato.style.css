@@ -4,6 +4,7 @@
     align-items: center;
     gap: 60px;
     animation: fadeIn 1s;
+    padding-top: 70px;
 }
 
  h1{

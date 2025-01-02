@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100wh;
-    margin-top: 45px;
+    /* margin-top: 70px; */
     animation: mymoveSobre 1s;
+    padding-top: 70px;
 }
 
 @keyframes mymoveSobre {

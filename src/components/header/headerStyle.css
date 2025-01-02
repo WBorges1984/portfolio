@@ -6,8 +6,11 @@ header{
     padding-bottom: 10px;
     background-color: rgb(43, 74, 99);
     color: azure;
-    height: 70px;
-      font-family: 'Montserrat';
+    height: 50px;
+    font-family: 'Montserrat';
+    position: fixed;
+    z-index: 100;
+    width: 100%;
   }
   
   nav{
