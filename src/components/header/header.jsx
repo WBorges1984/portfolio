@@ -1,11 +1,12 @@
 import './headerStyle.css'
 import { useMenu } from "../context/menuContext";
+import logo from '../../assets/img/logo.png'
 
 export default function Header(){
   const {menu, setMenu} = useMenu();
     return(
         <header style={{display:'flex'}}>
-        <span>LOGO</span>
+        <span><img src={logo} alt="" width={80}/></span>
          <nav>
            <button onClick={()=>setMenu('home')}>Início</button>
            <button onClick={()=>setMenu('sobre')}>Sobre mim</button>
