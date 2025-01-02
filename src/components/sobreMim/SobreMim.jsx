@@ -26,7 +26,10 @@ export default function Sobremim() {
         Material UI e MySQL, focando no desenvolvimento fullstack para criar 
         soluções tecnológicas de alto impacto.
         </h3>
-        <BtnSalvarCurriculo />
+        <div className='curriculo'>
+          <BtnSalvarCurriculo src='../curriculo/CurriculoWillian.pdf' pdf/>
+          <BtnSalvarCurriculo src='../curriculo/CurriculoWillian.docx' docx/>
+        </div>
       </article>
     </section>
   )
