@@ -1,6 +1,5 @@
 import "./tecnologias.style.css";
 import { linguagens } from "../../assets/img/linguagens";
-import BtnSalvarCurriculo from "../btnSalvarCurriculo/BtnCurriculo";
 
 function Tecnologias() {
   return (

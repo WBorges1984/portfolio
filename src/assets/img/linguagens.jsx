@@ -21,7 +21,5 @@ export const linguagens = {
     Git : {name: "Git", img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"},
     Postman : {name: "Postman", img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"},
     MySQl : {name: "MySQl", img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"},
-    SQlite : {name: "SQlite", img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg"},
-
-          
+    SQlite : {name: "SQlite", img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg"},      
  }

@@ -7,7 +7,6 @@ export default function Sobremim() {
   return (
     <section id='sobremim'>
       <article className='imgSobreMim'>
-        {/* <img src="https://my-portfolio-lp.vercel.app/assets/about-illustration.svg" alt="" srcset="" /> */}
         <img src={img} width="450" alt="" />
       </article>
       <article className='txtSobreMim'>
