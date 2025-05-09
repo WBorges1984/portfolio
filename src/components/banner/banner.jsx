@@ -1,5 +1,6 @@
 import BtnBanner from '../btnBanner/btnBanner'
 import './bannerStyle.css'
+import perfil from '../../assets/img/perfil.png'
 
 export default function Banner(){
    return(
@@ -15,7 +16,7 @@ export default function Banner(){
           </div>
         </article>
         <figure className='foto'>
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGoDEEJmlSeMQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728771226649?e=1746057600&v=beta&t=uGq0d7Vr-JpqlEr2Q6pPOZlpSN6DhUBAOlrJ-7RUXPQ" 
+          <img src={perfil} 
           alt="Foto de perfil de Willian Borges"
           />
         </figure>
