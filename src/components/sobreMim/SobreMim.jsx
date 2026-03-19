@@ -2,6 +2,8 @@ import React from 'react'
 import'./sobreMim.style.css'
 import img from '../../assets/img/sobremim.png'
 import BtnSalvarCurriculo from '../btnSalvarCurriculo/BtnCurriculo'
+import CurriculoPDF from '../../curriculo/CurriculoWillian.pdf'
+import CurriculoDOCX from '../../curriculo/CurriculoWillian.docx'
 
 export default function Sobremim() {
   return (
@@ -26,8 +28,8 @@ export default function Sobremim() {
         soluções tecnológicas de alto impacto.
         </h3>
         <div className='curriculo'>
-          <BtnSalvarCurriculo src='../curriculo/CurriculoWillian.pdf' pdf/>
-          <BtnSalvarCurriculo src='../curriculo/CurriculoWillian.docx' docx/>
+          <BtnSalvarCurriculo src={CurriculoPDF} pdf/>
+          <BtnSalvarCurriculo src={CurriculoDOCX} docx/>
         </div>
       </article>
     </section>
